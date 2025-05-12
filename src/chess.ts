@@ -88,7 +88,7 @@ function isFenArrayLegal(array: string[]): boolean {
       k = i;
     }
   }
-  return (((b2 - b1) % 2) === 0) && k > r1 && k < r2;
+  return (((b2 - b1) % 2) === 1) && k > r1 && k < r2;
 }
 
 function randomFenGenerator(): string {
